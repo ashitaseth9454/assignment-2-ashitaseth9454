@@ -61,4 +61,8 @@ public class MyBinarySearchTree {
         System.out.println("empty left childs" + c);
     }
 
+    public TreeNode getRoot() {
+        return root;
+
+    }
 }
