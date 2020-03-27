@@ -57,6 +57,8 @@ public class MyBinarySearchTree {
         display(node.getRight(), level + 1);
     }
 
-
+    public void newDisplay() {
+        System.out.println("empty left childs" + c);
     }
+
 }
