@@ -43,3 +43,7 @@ public class MyPriorityQueue {
         }
     }
 }
+
+    public void display() {
+
+    }
