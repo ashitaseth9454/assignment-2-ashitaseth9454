@@ -44,6 +44,18 @@ public class MyBinarySearchTree {
         return m;
     }
 
+    public void display(TreeNode node, int level) {
+        if (node.getLeft() == null) {
+            c++;
+
+        }
+        if (m < level) {
+            System.out.println(node.getData());
+            m = level;
+        }
+        display(node.getLeft(), level + 1);
+        display(node.getRight(), level + 1);
+    }
 
 
     }
