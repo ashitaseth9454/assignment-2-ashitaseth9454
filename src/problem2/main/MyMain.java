@@ -19,6 +19,8 @@ public class MyMain {
         mbst.insert(16);
         mbst.insert(21);
         mbst.insert(10);
+        System.out.println("root" + mbst.getRoot().getData());
+        System.out.println("preorder traversal");
 
 
 
