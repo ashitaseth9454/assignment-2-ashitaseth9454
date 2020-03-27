@@ -42,8 +42,13 @@ public class MyPriorityQueue {
             }
         }
     }
-}
+
 
     public void display() {
-
+        Node node = front;
+        while (node != null) {
+            System.out.println("name=" + node.getName() + "roll number=" + node.getRollNo());
+            node = node.getNext();
+        }
     }
+}
