@@ -38,6 +38,12 @@ public class MyBinarySearchTree {
                 }
             }
         }
+    }
+
+    public int getM() {
+        return m;
+    }
+
 
 
     }
