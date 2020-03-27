@@ -20,6 +20,8 @@ public class MyMain {
         mbst.insert(10);
         mbst.insert(2);
         mbst.insert(21);
+        mbst.display(mbst.getRoot(), mbst.getM());
+        mbst.newDisplay();
 
     }
 }
