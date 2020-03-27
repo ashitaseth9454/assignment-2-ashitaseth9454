@@ -5,6 +5,16 @@
  *  Time: 7:17 PM
  */
 package problem1.mybst;
+
+import problem1.node.TreeNode;
+
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
+    TreeNode root;
+    int m = 0, c = 0;
+
+    public MyBinarySearchTree() {
+        this.root = root;
+    }
+
 }
