@@ -11,5 +11,10 @@ public class Node {
     int rollNo;
     Node next;
 
+    public Node(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.next = next;
+    }
 
 }
