@@ -17,4 +17,7 @@ public class MyBinarySearchTree {
         this.root = root;
     }
 
+    public void insert(int data) {
+
+    }
 }
