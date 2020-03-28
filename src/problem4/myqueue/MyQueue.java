@@ -19,4 +19,10 @@ public class MyQueue {
         return ll.search(data).getData();
     }
 
+    public void addqueue(int data) {
+        ll.addLast(data);
+
+    }
+
+
 }
