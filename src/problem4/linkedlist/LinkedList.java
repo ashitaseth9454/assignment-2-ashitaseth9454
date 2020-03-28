@@ -34,4 +34,16 @@ public class LinkedList {
         }
 
     }
+
+    public Node getLast() {
+        return last;
+    }
+
+    public void setLast(Node last) {
+        this.last = last;
+    }
+
+    public Node search(int data) {
+
+    }
 }
