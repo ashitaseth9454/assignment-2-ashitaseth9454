@@ -12,4 +12,11 @@ import problem4.linkedlist.LinkedList;
 public class MyQueue {
     LinkedList ll = new LinkedList();
 
+    public int peek(int data) {
+        if (ll.search(data) == null) {
+            return -1;
+        }
+        return ll.search(data).getData();
+    }
+
 }
