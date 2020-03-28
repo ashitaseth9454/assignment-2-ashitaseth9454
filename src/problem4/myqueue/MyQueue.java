@@ -28,5 +28,9 @@ public class MyQueue {
         ll.deleteFirst();
     }
 
+    public void show() {
+        ll.display();
+    }
+
 
 }
