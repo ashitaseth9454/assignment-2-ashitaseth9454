@@ -24,5 +24,9 @@ public class MyQueue {
 
     }
 
+    public void delqueue() {
+        ll.deleteFirst();
+    }
+
 
 }
