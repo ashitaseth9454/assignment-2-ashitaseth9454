@@ -32,9 +32,32 @@ public class MyCircularQueue {
             }
 
         }
+    }
+
+    public Student remove() {
+        if (front == null)
+            System.out.println("queue is empty");
+        Student s = null;
+        if (front == rear) {
+            s = front.getStu();
+            front = rear = null;
+        } else {
+            Node temp = front;
+            s = temp.getStu();
+            front = front.getNext();
+            rear.setNext(front);
+
+        }
+        if (s.getBackLogCounter() == 0) {
+            return s;
+        } else {
+            insert(s);
+            return null;
+        }
 
 
     }
+
 
 }
 
