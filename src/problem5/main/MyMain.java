@@ -21,5 +21,28 @@ public class MyMain {
         mcq.insert(stu2);
         mcq.insert(stu3);
         mcq.insert(stu4);
+        Student remove = mcq.remove();
+        if (remove != null) {
+            System.out.println("removed student-" + remove.getName());
+        }
+        remove = mcq.remove();
+
+        if (remove != null) {
+            System.out.println("removed student-" + remove.getName());
+        }
+        remove = mcq.remove();
+
+        if (remove != null) {
+            System.out.println("removed student-" + remove.getName());
+        }
+        remove = mcq.remove();
+
+        if (remove != null) {
+            System.out.println("removed student-" + remove.getName());
+        }
+        mcq.display();
+
+
+
     }
 }

@@ -27,9 +27,10 @@ public class MyCircularQueue {
                 front = node;
             } else {
                 rear.setNext(node);
-                rear = node;
-                rear.setNext(front);
             }
+            rear = node;
+            rear.setNext(front);
+
 
         }
     }
