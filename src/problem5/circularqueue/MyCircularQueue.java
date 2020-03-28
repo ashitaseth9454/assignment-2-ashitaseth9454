@@ -59,6 +59,13 @@ public class MyCircularQueue {
     }
 
     public void display() {
+        Node temp = front;
+        while (temp.getNext() != front) {
+            System.out.println(temp.getStu().getName());
+            temp = temp.getNext();
+        }
+        //printing the front element in the queue
+        System.out.println(temp.getStu().getName());
 
     }
 
