@@ -13,4 +13,8 @@ public class LinkedList {
         last.setNext(node);
         last = node;
     }
+
+    public void deleteFirst() {
+
+    }
 }
