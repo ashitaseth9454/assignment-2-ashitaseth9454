@@ -18,7 +18,7 @@ public class LinkedList {
         if (first == null) {
             first = last = null;
             return;
-            ;
+
         }
         var second = first.getNext();
         first.setNext(null);
@@ -44,6 +44,15 @@ public class LinkedList {
     }
 
     public Node search(int data) {
+        var current = first;
+        while (current != null) {
+            if (current.getData() == data) {
+                return current;
+            }
+            current = current.getNext();
+        }
+        return null;
 
     }
 }
+
