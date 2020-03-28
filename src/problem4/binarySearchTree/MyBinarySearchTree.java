@@ -7,6 +7,14 @@ public class MyBinarySearchTree {
     private MyQueue mq;
     private TreeNode root;
 
+    public MyBinarySearchTree(MyQueue queue) {
+        this.mq = queue;
+    }
+
+    public void insert(int data) {
+
+    }
+
     public TreeNode getRoot() {
         return root;
     }
