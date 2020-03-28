@@ -13,8 +13,13 @@ import problem5.student.Student;
 public class MyMain {
     public static void main(String[] args) {
         MyCircularQueue mcq = new MyCircularQueue();
-        Student stu1 = new Student(("ashi", 0, 1));
-
-
+        Student stu1 = new Student("ashi", 0, 1);
+        Student stu2 = new Student("anamika", 2, 4);
+        Student stu3 = new Student("anshika", 2, 1);
+        Student stu4 = new Student("nihaarika", 0, 1);
+        mcq.insert(stu1);
+        mcq.insert(stu2);
+        mcq.insert(stu3);
+        mcq.insert(stu4);
     }
 }
