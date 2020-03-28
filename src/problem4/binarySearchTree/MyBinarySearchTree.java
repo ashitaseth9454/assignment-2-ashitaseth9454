@@ -12,6 +12,8 @@ public class MyBinarySearchTree {
     }
 
     public void insert(int data) {
+        TreeNode node = new TreeNode(data);
+
 
     }
 
